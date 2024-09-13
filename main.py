@@ -2,14 +2,15 @@
 Par Kraimeche Amine
 """
 
-# Importer tout le package scipy
-import scipy
-
-# Importer seulement les constantes
 from scipy import constants
 
-# Écriture longue
-print(f"INI 1 pied = {scipy.constants.foot} mètre")
+# Entree
+feet = float(input("KA: Entrez la taille en pieds : "))
+inches = float(input("KA: Entrez les pouces supplémentaires : "))
 
-# Écriture courte (plus lisible)
-print(f"INI 1 pied = {constants.foot} mètre")
+# Calculs
+total_feet = feet + inches / 12
+meters = total_feet * constants.foot
+
+# Sortie
+print(f"KA: {feet:.0f} pieds et {inches:.0f} pouces vaut {round(meters, 2)} m")
