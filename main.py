@@ -6,10 +6,10 @@ from scipy import constants
 
 # Constantes
 CONVERSION_PIEDS_CARRES_METRES_CARRES = constants.foot ** 2
-TEMPS_PAR_METRE_CARRE_SECONDES = 5
-COUVERTURE_PAR_SAC_METRES_CARRES = 100
-COUT_PAR_SAC = 12.50
-TAUX_TAXE = 0.14975
+TEMPS_PAR_METRE_CARRE_SECONDES = 10
+COUVERTURE_PAR_SAC_METRES_CARRES = 120
+COUT_PAR_SAC = 18.25
+TAUX_TAXE = 0.17975
 
 # Entree
 longueur_pieds = float(input("KA: Entrez la longueur du terrain en pieds : "))
